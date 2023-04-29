@@ -26,6 +26,8 @@ ExceptionHandling.java: This is the class where you should implement your progra
 
 Containers.arxml: This is a normal ARXML file for testing the normal case.
 
+Containers_mod.arxml: This is the modified ARXML file after running the program.
+
 empty.arxml: This is an empty ARXML file for testing the empty file case.
 
 run.bat: This is a batch file that runs your program with different input files for testing purposes.
