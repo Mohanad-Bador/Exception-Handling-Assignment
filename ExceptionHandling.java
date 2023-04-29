@@ -68,7 +68,6 @@ public class ExceptionHandling{
         finally{
             System.out.println("end ofcode");
         }
-        System.out.println("mohanad");
     }
     public static void validateExtension (String S)throws NotVaildAutosarFileException{
         int i = S.lastIndexOf(".");
