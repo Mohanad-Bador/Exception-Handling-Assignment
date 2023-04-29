@@ -13,10 +13,10 @@ public class ExceptionHandling{
     public static void main(String[] args) {
         try {
             String filename = args[0];
-            validateExtension(filename);
             File F = new File(filename);
-            if (!F.exists())
-                throw new FileNotFoundException("This file is not found");
+            if (!F.exists()){
+                throw new FileNotFoundException("This file is not found");}
+            validateExtension(filename);
             emptyCheck(F);
             FileInputStream fis= new FileInputStream(F);
             StringBuilder SB= new StringBuilder();
